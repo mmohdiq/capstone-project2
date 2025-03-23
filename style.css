@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f8ede3;
+  height: 100vh;
+}
+
+.section1 {
+  background-color: #bdd2b6;
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.section4 h2{
+    padding-bottom: 20px;
+}
+
+.section2 {
+  background-color: #a2b29f;
+  text-align: center;
+  padding: 20px;
+}
+
+.section3{
+    background-color: #BDD2B6;
+    text-align: center;
+    padding: 20px;
+}
+
+.section1 p {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.section1 img {
+  border-radius: 50%;
+}
+
+.section2 img {
+  border-radius: 15px;
+}
+
+.section3 img{
+    border-radius: 15px;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section2 h2 {
+  padding-bottom: 20px;
+  color: rgb(70, 105, 18);
+}
+
+.skill-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.ps-image {
+  margin-bottom: 20px;
+}
+
+.subburn {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.design-image {
+  margin-bottom: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+header nav li a {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #798777;
+  margin: 10px;
+  padding: 10px;
+  letter-spacing: 0.6px;
+  transition: 0.3s ease;
+  border-bottom: transparent solid 3px;
+}
+
+.section4{
+    text-align: center;
+    padding: 20px;
+}
+.project-title{
+    padding: 20px;
+}
+.skills{
+    font-size: 30px;
+}
+
+
+.skill-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.project-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+header nav li a:hover {
+  color: #798777;
+  border-bottom: #798777 solid 3px;
+}
+
+.section1 .intro {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(70, 105, 18);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.section1 h3 {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(70, 105, 18);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  line-height: 1.1;
+  margin: 10px;
+}
+
+span {
+  color: purple;
+  font-weight: 800;
+}
+
+.project-heading{
+    font-size: 30px;
+    color: rgb(70, 105, 18);
+    padding-bottom: 20px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.section4 p{
+    padding: 20px;
+}
+
+button{
+    background-color: #04AA6D;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+    
+
+
